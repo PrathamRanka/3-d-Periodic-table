@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>3D Periodic Table</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<link type="text/css" rel="stylesheet" href="https://threejs.org/examples/main.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style.css">
-<style>
-
-</style>
+  <title>3D Periodic Table</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="https://threejs.org/examples/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
 </head>
 <body>
 <div class="grid-container">
@@ -30,26 +28,27 @@
   <div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div>
   <div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div>
   <div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div>
-  <!-- <div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div> -->
- <!-- <div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div> -->
+  <div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div><div class="grid-element"></div>
 </div>
 <div id="header">
-    <h1>3D Periodic Table</h1>
-    <p>Hover for info. Filter by property:</p>
-    <select id="propertyFilter">
-        <option value="All">All</option>
-        <option value="Alkali Metal">Alkali Metal</option>
-        <option value="Alkaline Earth Metal">Alkaline Earth Metal</option>
-        <option value="Transition Metal">Transition Metal</option>
-        <option value="Post-transition Metal">Post-transition Metal</option>
-        <option value="Metalloid">Metalloid</option>
-        <option value="Nonmetal">Nonmetal</option>
-        <option value="Halogen">Halogen</option>
-        <option value="Noble Gas">Noble Gas</option>
-        <option value="Lanthanide">Lanthanide</option>
-        <option value="Actinide">Actinide</option>
-    </select>
-    <!-- <button id="themeToggle" class="fa-solid fa-sun"></button> -->
+   <h1>
+    Periodic Table of Elements
+  </h1>
+  <p >Hover for info. Filter by property:</p>
+  <select id="propertyFilter">
+      <option value="All">All</option>
+      <option value="Alkali Metal">Alkali Metal</option>
+      <option value="Alkaline Earth Metal">Alkaline Earth Metal</option>
+      <option value="Transition Metal">Transition Metal</option>
+      <option value="Post-transition Metal">Post-transition Metal</option>
+      <option value="Metalloid">Metalloid</option>
+      <option value="Nonmetal">Nonmetal</option>
+      <option value="Halogen">Halogen</option>
+      <option value="Noble Gas">Noble Gas</option>
+      <option value="Lanthanide">Lanthanide</option>
+      <option value="Actinide">Actinide</option>
+  </select>
+
 </div>
 <div id="hoverInfo"></div>
 <div id="container"></div>
