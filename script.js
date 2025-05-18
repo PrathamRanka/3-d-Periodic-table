@@ -122,7 +122,7 @@ const table = [
 ["Uup", "Ununpentium", "[290]", 15, 7, "Unknown"],
 ["Uuh", "Ununhexium", "[293]", 16, 7, "Unknown"],
 ["Uus", "Ununseptium", "[294]", 17, 7, "Unknown"],
-["Uuo", "Ununoctium", "[294]", 18, 7, "Unknown"]
+["Uuo", "Ununoctiu", "[294]", 18, 7, "Unknown"]
 ];
 
 let camera, scene, renderer, controls;
