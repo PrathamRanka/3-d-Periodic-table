@@ -117,7 +117,12 @@ const table = [
 ["Ds", "Darmstadtium", "[281]", 10, 7, "Unknown"],
 ["Rg", "Roentgenium", "[282]", 11, 7, "Unknown"],
 ["Cn", "Copernicium", "[285]", 12, 7, "Transition Metal"],
-
+["Uut", "Ununtrium", "[286]", 13, 7, "Unknown"],
+["Uuq", "Ununquadium", "[289]", 14, 7, "Post-transition Metal"],
+["Uup", "Ununpentium", "[290]", 15, 7, "Unknown"],
+["Uuh", "Ununhexium", "[293]", 16, 7, "Unknown"],
+["Uus", "Ununseptium", "[294]", 17, 7, "Unknown"],
+["Uuo", "Ununoctium", "[294]", 18, 7, "Unknown"]
 ];
 
 let camera, scene, renderer, controls;
